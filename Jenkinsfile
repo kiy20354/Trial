@@ -11,6 +11,11 @@ pipeline {
         sh '''echo " hoge"
 pwd
 ls
+
+echo $PATH
+
+which ls
+which docker
 '''
       }
     }
