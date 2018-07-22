@@ -1,0 +1,12 @@
+
+HelloCpp/.vs/HelloCpp/v15/.suo
+*.db
+HelloCpp/.vs/HelloCpp/v15/Browse.VC.opendb
+*.ipch
+HelloCpp/Debug/HelloCpp.log
+*.pch
+*.tlog
+*.obj
+*.idb
+*.pdb
+*.user
