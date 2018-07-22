@@ -6,12 +6,23 @@ pipeline {
         echo 'hoge'
       }
     }
-    stage('') {
+    stage('step2') {
       steps {
         sh '''echo " hoge"
 pwd
 ls
 '''
+      }
+    }
+    stage('dockerstep') {
+      agent {
+        docker {
+          image 'alpine'
+        }
+        
+      }
+      steps {
+        sh 'ls'
       }
     }
   }
