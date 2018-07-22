@@ -6,5 +6,13 @@ pipeline {
         echo 'hoge'
       }
     }
+    stage('') {
+      steps {
+        sh '''echo " hoge"
+pwd
+ls
+'''
+      }
+    }
   }
 }
