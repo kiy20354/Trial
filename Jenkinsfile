@@ -15,7 +15,7 @@ ls
 echo $PATH
 
 which ls
-which docker
+ls /usr/local/bin
 '''
       }
     }
